@@ -20,7 +20,7 @@ function Weather(data) {
             <span className="underline decoration-solid font-medium">
               City Search
             </span>
-            <span className="opacity-70"> Coming Soon</span>{" "}
+            <span className="opacity-70"> Coming Soon </span>{" "}
             <CiClock2 className="inline" size={20} />
           </h2>
           {/* <form>
