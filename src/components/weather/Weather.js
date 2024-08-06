@@ -3,6 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import { IoPartlySunnyOutline } from "react-icons/io5";
 import { LuWind } from "react-icons/lu";
 import { IoWaterOutline } from "react-icons/io5";
+import { CiClock2 } from "react-icons/ci";
 
 function Weather(data) {
   console.log(data);
@@ -15,7 +16,14 @@ function Weather(data) {
       <div class="flex h-screen">
         <div class="m-auto">
           {/* input element */}
-          <form>
+          <h2 className="font-customFont">
+            <span className="underline decoration-solid font-medium">
+              City Search
+            </span>
+            <span className="opacity-70"> Coming Soon</span>{" "}
+            <CiClock2 className="inline" size={20} />
+          </h2>
+          {/* <form>
             <div class="gap-3 border-b border-gray-900/10 pb-6 mt-2 flex">
               <input
                 type="text"
@@ -32,7 +40,7 @@ function Weather(data) {
                 <span>Search</span>
               </button>
             </div>
-          </form>
+          </form> */}
 
           {/* Card element */}
           <div class="flex justify-center mt-6">
